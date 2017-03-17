@@ -37,9 +37,11 @@
   padding-bottom: 20px;
   padding-top: 20px;
   margin-bottom: 50px;
-  border: solid 1px black;
-  background-color: rgba(85, 89, 93, 0.8);
+  /*background-color: rgba(85, 89, 93, 0.7);*/
   font-family: "Kavoon";
+  color: rgba(44, 53, 57, 1);
+  text-shadow: 2px 2px 4px white;
+  /*background-color: rgba(0, 0, 0, 0.3);*/
 }
 
 #jasonpicabout {
@@ -49,22 +51,45 @@
   margin-top: 40px;
   display: inline-block;
   border-radius: 50%;
-  border: solid black 2px;
+  border: solid white 3px;
 
 }
 
-#jasonpic {
-  transform: rotate(90deg);
-  height: 200px;
-  width: 300px;
-  display: inline-block;
-  float: left;
+#bear {
+  float: right;
+  height: 300px;
+  width: 400px;
+  border-radius: 50%;
+  border: solid white 3px;
 }
 
+.love {
+  color: rgba(0, 170, 255, 0.5);
+  text-align: center;
+}
 
+#sky {
+  color: red;
+  font-weight: bold;
+  font-size: 18px;
+}
 
 #magic {
   text-align: center;
+}
+
+/*#aboutbutton {
+  float: left;
+  margin-top: 200px;
+}*/
+.aboutnav {
+  margin-top: 10px;
+  margin: auto;
+  display: inline;
+}
+
+.mis {
+  border-bottom: solid black 1px
 }
 
 .inline {

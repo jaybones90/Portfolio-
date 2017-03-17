@@ -9,15 +9,45 @@
   <body>
     <div class="blockbackground"></div>
     <div class="container">
+      <div class="aboutnav" class="btn-group btn-group-justified" role="group" aria-label="...">
+        <div class="btn-group" role="button">
+          <button type="button" class="btn btn-default"><a href="projects.html"><strong>Projects</strong></a>
+          </button>
+        </div>
+        <div class="aboutnav" class="btn-group" role="button">
+          <button type="button" class="btn btn-default"><a href="about.html"><strong>About</strong></a>
+          </button>
+        </div>
+        <div class="aboutnav" class="btn-group" role="button">
+          <button type="button" class="btn btn-default"><a href="contact.html"><strong>Contact</strong></a>
+          </button>
+        </div>
+      </div>
+
     <div id="aboutjumbo" class="jumbotron">
       <h1 id="pad">Jason Ainsworth</h1>
-        <img id="jasonpicabout" src="img/jason.jpg" class="img-responsive">
+      <img id="jasonpicabout" src="img/jason.jpg" class="img-responsive">
+      <img id="bear" src="img/bear.jpg" class="img-responive">
+      <!-- <div class="aboutnav" class="btn-group btn-group-justified" role="group" aria-label="...">
+        <div class="btn-group" role="button">
+          <button type="button" class="btn btn-default"><a href="projects.html"><strong>Projects</strong></a>
+          </button>
+        </div>
+        <div class="aboutnav" class="btn-group" role="button">
+          <button type="button" class="btn btn-default"><a href="about.html"><strong>About</strong></a>
+          </button>
+        </div>
+        <div class="aboutnav" class="btn-group" role="button">
+          <button type="button" class="btn btn-default"><a href="contact.html"><strong>Contact</strong></a>
+          </button>
+        </div>
+      </div> -->
     </div>
     <div class="row">
       <div class="col-lg-12">
         <div class="well">
           <h2 class="centeralign">Job Experience</h2>
-          <h3 class="centeralign">Made In Space</h3>
+          <h3 class="centeralign"><span class="mis">Made In Space</span></h3>
           <h4 class="centeralign">Executive Assistant</h4>
           <h5 class="centeralign">July 2014 - Feb 2015</h5>
           <ul class="inline">
@@ -28,13 +58,13 @@
             <li>Managed projects which included marketing, scheduling, and organization
             </li>
           </ul>
-          <h3 class="centeralign">Operations Manager</h3>
-          <h4 class="centeralign">Magic</h4>
+          <h3 class="centeralign"><span class="mis">Magic</span></h3>
+          <h4 class="centeralign">Operations Manager</h4>
           <h5 class="centeralign">Feb 2015 - July 2015</h5>
           <p id="magic">My role at Magic was floor manager and then sales manager. I was recruited by former employer and co-founder, Mike Chen and was at Magic since the beginning. My team would handle all the high profile requests and clients such as Ashton Kutcher, Justin Kan, and Patrick Collison. I helped manage operations such as identifying and defining new roles, training new hires, and creating more efficient task management strategies. I became proficient in internet research and problem solving on the fly while also finding and executing solutions to complex tasks on a daily basis.
           </p>
-          <h3 class="centeralign">Creative Traffic Manager</h3>
-          <h4 class="centeralign">Kalisher</h4>
+          <h3 class="centeralign"><span class="mis">Kalisher</span></h3>
+          <h4 class="centeralign">Creative Traffic Manager</h4>
           <h5 class="centeralign">Sept 2015 - Feb 2016</h5>
           <ul>
             <li>Analyzed art requests for accuracy and direction, assigned daily art requests to a team of 6 artists and 2 curators, created and managed their daily schedule that had to adhere to strict deadlines that were constantly changing
@@ -44,8 +74,8 @@
             <li> Worked directly with the creative director to optimize workflow and provide solutions to traffic issues
             </li>
           </ul>
-          <h3 class="centeralign">Director of Operations and Marketing</h3>
-          <h4 class="centeralign">Empey Realty</h4>
+          <h3 class="centeralign"><span class="mis">Empey Realty</span></h3>
+          <h4 class="centeralign">Director of Operations and Marketing</h4>
           <h5 class="centeralign">May 2016 - Feb 2017</h5>
           <ul>
             <li>Managed luxury vacation rentals
@@ -64,7 +94,7 @@
     <div class="row">
       <div class="col-lg-4">
         <div class="well">
-          <h3>Education</h3>
+          <h3 class="love">Education</h3>
           <ul>
             <li>Jupiter High School - Jupiter, FL - High School Diploma</li>
             <li>San Diego Mesa College - San Diego, - Associates in Sociology CA</li>
@@ -80,10 +110,10 @@
       </div>
       <div class="col-lg-4">
         <div class="well">
-          <h3>The Things I Love</h3>
-          <ul>
+          <h3 class="love">The Things I Love</h3>
+          <ol>
             <li>My Dog</li>
-            <li>Skydiving</li>
+            <li><span id="sky">Skydiving</span></li>
             <li>My Friends</li>
             <li>Off-Roading</li>
             <li>Surfing</li>
@@ -91,13 +121,10 @@
             <li>Camping</li>
             <li>Cooking</li>
             <li>Video Games</li>
-          </ul>
+          </ol>
         </div>
       </div>
     </div>
-
-      <button type="button" class="btn btn-success"><a href="index.html">Back
-      </button>
     </div>
   </body>
 </html>
