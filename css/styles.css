@@ -39,8 +39,8 @@
   margin-bottom: 50px;
   /*background-color: rgba(85, 89, 93, 0.7);*/
   font-family: "Kavoon";
-  color: rgba(44, 53, 57, 1);
-  text-shadow: 2px 2px 4px white;
+  color: rgba(255, 255, 255, 1);
+  text-shadow: 3px 8px 2px grey;
   /*background-color: rgba(0, 0, 0, 0.3);*/
 }
 
@@ -78,6 +78,10 @@
   text-align: center;
 }
 
+#projectnav {
+  float: left;
+}
+
 /*#aboutbutton {
   float: left;
   margin-top: 200px;
@@ -111,7 +115,7 @@ background-image: url(../img/background.png);
 
 .jumbotron {
   text-align: center;
-  background-color: rgba(30, 116, 255, 0.3);
+  background-color: rgba(30, 116, 255, .8);
   color: white;
 }
 
@@ -137,6 +141,7 @@ h3 , h2, h4, h5 {
   font-family:'Ultra';
 }
 
-#h3index {
-  font-family: 'Rock Salt'
+.h3index {
+  font-family: 'Rock Salt';
+  line-height: 40px;
 }
