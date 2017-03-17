@@ -61,9 +61,7 @@
   float: left;
 }
 
-#pic {
-  margin-top: 200px;
-}
+
 
 #magic {
   text-align: center;
@@ -112,4 +110,8 @@ p {
 
 h3 , h2, h4, h5 {
   font-family:'Ultra';
+}
+
+#h3index {
+  font-family: 'Rock Salt'
 }
