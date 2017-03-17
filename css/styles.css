@@ -27,6 +27,24 @@
   align-items: center;
 }
 
+#aboutjumbo {
+  margin-bottom: 10%;
+  padding-bottom: 200px;
+}
+
+#pad {
+  padding-bottom: 50px;
+}
+
+#jasonpicabout {
+  transform: rotate(90deg);
+  height: 300px;
+  width: 400px;
+  margin-top: 40px;
+  display: inline-block;
+  border-radius: 50%;
+}
+
 #jasonpic {
   transform: rotate(90deg);
   height: 200px;
